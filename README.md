@@ -21,15 +21,15 @@ npm run dev
 
 ## 사용한 기술 스택 및 선택 이유 
 
-- Framework**: Next.js 15
+- Framework: Next.js 15
   - React 기반의 풀스택 프레임워크로 App Router와 서버 컴포넌트를 활용한 최신 개발 경험 제공
   - 빠른 개발 환경과 최적화된 프로덕션 빌드
 
-- Language**: TypeScript
+- Language: TypeScript
   - 타입 안정성을 통한 런타임 에러 사전 방지
   - 코드 자동완성과 리팩토링의 용이성으로 개발 생산성 향상
 
-- Styling**: Tailwind CSS
+- Styling: Tailwind CSS
   - 유틸리티 우선 접근 방식으로 빠른 UI 개발
   - 일관된 디자인 시스템 구축 및 반응형 디자인 간편 구현
  
