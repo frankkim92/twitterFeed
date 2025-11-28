@@ -2,31 +2,15 @@
 
 Next.js와 TypeScript, Tailwind CSS로 만든 트위터 피드 프로젝트입니다.
 
-## 시작하기
+##  시작하기
 
 ### 1. 의존성 설치
 
-```bash
-npm install
-```
+npm install### 2. 개발 서버 실행
 
-### 2. 개발 서버 실행
+npm run dev브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 결과를 확인하세요.
 
-```bash
-npm run dev
-```
-
-브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 결과를 확인하세요.
-
-
-## 사용한 기술 스택 및 선택 이유 
-
-- **Framework**: Next.js 15
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-
-
-## 구현한 기능 목록
+##  사용한 기술 스택 및 선택 이유
 
 - **Framework**: Next.js 15
   - React 기반의 풀스택 프레임워크로 App Router와 서버 컴포넌트를 활용한 최신 개발 경험 제공
@@ -39,11 +23,10 @@ npm run dev
 - **Styling**: Tailwind CSS
   - 유틸리티 우선 접근 방식으로 빠른 UI 개발
   - 일관된 디자인 시스템 구축 및 반응형 디자인 간편 구현
- 
 
-## 구현한 기능 목록
+##  구현한 기능 목록
 
-###  게시물 작성
+### 📝 게시물 작성
 - 280자 제한 텍스트 입력
 - 이미지 첨부 및 미리보기
 - 실시간 글자 수 카운터 및 진행률 표시
@@ -51,6 +34,7 @@ npm run dev
 
 ###  피드
 - 무한 스크롤 (Intersection Observer)
+- 10개씩 페이지네이션
 - 로딩 상태 표시
 - 시간순 정렬
 
@@ -62,3 +46,4 @@ npm run dev
 ###  UI/UX
 - Twitter/X 스타일 다크 테마
 - 반응형 디자인
+- 호버 효과 및 애니메이션
